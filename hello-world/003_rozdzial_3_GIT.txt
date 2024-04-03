@@ -1,0 +1,91 @@
+#################################################################
+#                                                               #
+#       Rozdział 3 - GIT                                        #
+#                                                               #
+#################################################################
+
+
+-- komendy podstawowe Git'a
+  git --version
+  git log
+  git config user.name
+  git config --global user.name " Jakub Przybysz"
+  git config --global user.email termos22@gmail.com
+  git status
+  git init
+  git add file1.txt file2.txt file3.txt
+  git add folder/
+  git add .
+  git commit
+  git commit -m "my commit message"
+  git commit -a -m "my commit message"
+  git commit --amend
+  git log
+  git branch
+  git branch <new-branch-name>
+  git branch -d <branch-name>   = remove a branch
+  git branch -D <branch-name>   = force remove a branch
+  git branch -m <branch-name>   = rename/move a branch
+  git branch -M <branch-name>   = force rename/move a branch
+  git switch <branch-name>
+  git switch -c <new-branch-name>
+  git switch -
+  git checkout <branch-name>
+  git checkout -b <branch-name>
+  git checkout HEAD~1
+  git checkout HEAD <filename>
+  git checkout --file
+  git restore <filename>
+  git restore --source HEAD~1 <filename>
+  git restore --staged <filename>
+  git reset <commit_hash>
+  git reset --hard HEAD~1
+  git revert
+  git merge nazwa_gałęzi
+  git diff
+  git diff HEAD
+  git diff --staged
+  git diff --cached
+  git diff HEAD <filename>
+  git diff --staged <filename>
+  git diff branch1..branch2
+  git diff commit1..commit2
+  git stash
+  git stash save
+  git stash pop
+  git stash apply
+  git stash list
+  git stash apply stash@{2}
+  git stash drop stash@{2}
+  git stash clear
+    
+  
+  
+-- plik .gitignore  
+  .folder_ukryty
+  folder_z_konkretną_nazwą/
+  *.log
+  
+  https://gitignore.io/
+  
+-- przydatne linki
+  https://git-scm.com/
+  https://git-scm.com/docs
+  https://git-scm.com/book/en/v2
+  https://git-scm.com/video/what-is-version-control
+  https://git-scm.com/video/what-is-git
+  https://git-scm.com/video/get-going
+  https://git-scm.com/video/quick-wins
+  
+-- GUI dla Git'ad
+  https://www.gitkraken.com/
+  https://www.git-tower.com/windows
+  
+-- Edytory tekstu w zamian za Vim'a
+  https://code.visualstudio.com/
+  https://notepad-plus-plus.org/
+  
+-- repozytoria online GIT
+  https://github.com/
+  https://gitlab.com/
+  https://bitbucket.org/

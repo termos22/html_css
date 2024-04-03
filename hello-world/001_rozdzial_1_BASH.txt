@@ -1,0 +1,28 @@
+#################################################################
+#                                                               #
+#       Rozdział 1 - BASH                                       #
+#                                                               #
+#################################################################
+
+
+-- komendy podstawowe Bash'a
+  ls
+  ls folder
+  ls folder/folder2
+  ls -a
+  clear
+  start .
+  pwd
+  cd
+  cd folder
+  cd ..
+  touch purple.txt
+  touch purple.txt green.js yellow.pdf
+  mkdir
+  rm purple.txt
+  rm -rf test
+  cat folder   = list a reference 
+
+
+-- tips & tricks
+  <TAB> - uzupełnia nazwy

@@ -1,0 +1,40 @@
+3#################################################################
+#                                                               #
+#       Rozdział 3 - Windows - CMD                              #
+#                                                               #
+#################################################################
+
+-- przydatne komendy CMD (command prompt)
+  color02 # zmienia kolor CMD (pierwsza cyfra to kolor tekstu, druga cyfra to kolor tła)
+            0 - BLACK
+            1 - BLUE
+            2 - GREEN
+            3 - AQUA
+            4 - RED
+            5 - PURPLE
+            6 - YELLOW
+            7 - 
+            8 - GRAY
+            9 - LIGHT BLUE
+            A - LIGHT GREEN
+            B - LIGHT AQUA
+            C - LIGHT RED
+            D - LIGHT PURPLE
+            E - LIGHT YELLOW
+            F - BRIGHT WHITE
+  cls # czyści ekran konsoli
+  ipconfig       # wyświetla informacje o ustawieniach adresu IP
+  ipconfig /all  # jak wyżej tylk podaje więcej szczegółów 
+  ipconfig /release # wymusza zwolnienie adresu IP jeżeli to możliwe
+  ipconfig /renew   # pobiera nowy adres IP
+  getmac /v      # wyświetla informacje o adresach MAC
+  title          # nadaje nowy tytuł oknu CMD 
+  prompt test$G         # zmienia tekst pola "prompt" ważne żeby na końcu tekstu były znaki "$G"
+  curl qrenco.de/https://www.youtube.com # wygeneruje kod QR z odnośnikiem do podanego adresu
+  curl wttr.in/ # pokaże pogodę w lokalicacji podanej po /
+  dir
+  tree
+  attrib +h +s +r myfolder
+  attrib +h +s +r myfolder
+  telnet
+  telnet telehack.com # strona z tekstowymi prezentacjami w konsoli

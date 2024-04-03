@@ -1,0 +1,37 @@
+#################################################################
+#                                                               #
+#       Rozdział 2 - Linux - Ubuntu                             #
+#                                                               #
+#################################################################
+
+
+-- komendy podstawowe (patrz również Rozdział 1)
+  sudo apt install xinit   - instaluje powłokę graficzną
+  startx    - staruje powłokę graficzną
+  
+  
+-- Ubuntu usefull commands:
+  sudo apt-get update        	# Fetches the list of available updates
+  sudo apt-get upgrade   		# Strictly upgrades the current packages
+  sudo apt-get dist-upgrade  	# Installs updates (new ones)
+  sudo apt autoremove			# Automatycznie usuwa pakiety nie używane 
+  sudo shutdown -r now          # to rebbot Ubuntu
+
+  sudo chown minecraft:minecraft /srv/mscs/worlds/test -R
+
+  ssh-keygen -t rsa -b 4096 -C "your_email@example.com" # -t(pozwala wybrać typ klucza) -b(definiuje długość klucza) -C(dodaje komentarz do klucza)
+  sudo userdel username
+
+-- Vsftpd - FTP server commands
+  sudo service vsftpd restart #
+  sudo systemctl status vsftpd
+
+-- Instaling Java:
+  sudo apt-add-repository ppa:webupd8team/java
+  sudo apt-get update
+  sudo apt-get install oracle-java8-installer
+
+  java -version			#get java version
+
+-- Other system commands.
+  chmod
