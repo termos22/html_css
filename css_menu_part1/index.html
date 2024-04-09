@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Document</title>
+    </head>
+    <body>
+        <button class="burger" onclick="toggleMenu()"></button>
+        <div class="background"></div>
+        <div class="menu">
+            <nav>
+                <a style="animation-delay: 0.2s">About</a>
+                <a style="animation-delay: 0.3s">Portfolio</a>
+                <a style="animation-delay: 0.3s">Services</a>
+                <a style="animation-delay: 0.3s">Contact</a>
+                <!-- More links here -->
+            </nav>
+        </div>
+        <script type="text/javascript">
+            const toggleMenu = () => document.body.classList.toggle("open");
+        </script>
+    </body>
+</html>
